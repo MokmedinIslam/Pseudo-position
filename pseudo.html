@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3{
+            color:aqua;
+        }
+        /* hover means mouse over  */
+        h3:hover{
+            color: red;
+            background-color: yellowgreen;
+        }
+    input:focus{
+        color: greenyellow;
+        outline: 0;
+        border: 1px solid purple;
+    }
+    a:visited{
+        color: yellow;
+    }
+    /* li:first-child{
+        color: aquamarine;
+    } */
+    /* li:last-child{
+      background-color: aqua;  
+    } */
+     li:nth-child(2n+1){
+        color: violet;
+     }
+    </style>
+</head>
+<body>
+    <h3>My heading</h3>
+    <!-- <br> -->
+    <input type="text">
+    <br>
+    <input type="text">
+    <br>
+    <input type="text">
+    <br>
+    <a href="https://www.youtube.com/">youtube</a>
+    <a href="https://www.google.com/">google</a>
+
+
+    <ul>
+        <li>ami</li>
+        <li>tmi</li>
+        <li>she</li>
+        <li>ora</li>
+        <li>tara</li>
+    </ul>
+</body>
+</html>
